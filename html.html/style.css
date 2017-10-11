@@ -314,10 +314,33 @@ button {
 }
 
     @media all and (max-width: 720px) {
-        #mens + #trends + #womens + #sale + #bags + #glasses {
+        .categories {
             display: flex;
-            width: 100%;
+            width: auto;
             flex-direction: column
+        }
+        #mens {
+            width: auto;
+        }
+        
+        #glasses {
+            width: auto;
+        } 
+        #trends {
+            width: auto;
+            
+        } 
+        #womens {
+            width: auto;
+            
+        } 
+        #sale {
+            width: auto;
+            
+        }  
+        #bags {
+            width: auto;
+            
         }
     }
     
