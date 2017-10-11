@@ -223,6 +223,7 @@ section.item .items {
     font-size: 40px;
 }
 #email {
+    font-family: 'ralewaylight';
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -236,13 +237,28 @@ section.item .items {
     text-align: center;
     
 }
+#email h1 {
+    font-family: 'playfair_displayregular';
+    font-size: 35px;
+    
+}
+#email-header em {
+        font-style: italic;
+}
 #text {
+    font-style: 'playfair_displayitalic';
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 300px;
+}
+#first-hand {
+    font-size: 35px;
+}
+#first-hand em {
+    font-style: italic;
 }
 #footer {
     /*padding: 2rem;*/
