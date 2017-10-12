@@ -12,6 +12,10 @@
 
     
 }
+.nav img {
+    height: 70px;
+    width: 70px;
+}
 a#cart.nav {
     width: 100%;
     justify-content: flex-end;
@@ -25,11 +29,11 @@ a#cart.nav {
     
 
 }
-li { 
+.nav ul { 
     top: 0px;
-
+    font-size: 12px;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-between;;
     align-items: center;
     padding: 0%;
     
@@ -91,7 +95,7 @@ main.middle {
     background-position: center;
     background-size: 100%;
     
-    width: 50%;
+    width: 100%;
 } 
 #mens:hover {
     background-color: white;
@@ -103,7 +107,7 @@ main.middle {
     background-position: center;
     background-size: 100%;
     
-    width: 24%;
+    width: 49%;
 }
 #trends:hover {
     background-color: white;
@@ -115,7 +119,7 @@ main.middle {
     background-position: center;
     background-size: 100%;
     
-    width: 25%
+    width: 49%
 }
 #glasses:hover {
     background-color: white;
@@ -127,7 +131,7 @@ main.middle {
     background-position: center;
     background-size: 100%;
     
-    width: 25%;
+    width: 49%;
 }
 #sale:hover {
     background-color: white;
@@ -139,7 +143,7 @@ main.middle {
     background-position: center;
     background-size: 100%;
     
-    width: 24%;
+    width: 49%;
 }
 #bags:hover {
     background-color: white
@@ -153,14 +157,14 @@ main.middle {
     background-size: 100%;
     
    
-    width: 50%;
+    width: 100%;
 }
 #womens:hover {
     background-color: white;
 }
 section.categories .categories{
 display: inline-flex;
-height: 300px;
+height: 150px;
 width: 100%;
 justify-content: center;
 align-items: center;
@@ -179,6 +183,9 @@ section.categories .categories ul {
 }
 .categories a:hover {
     color: #b64036;
+}
+.categories {
+    display: inline;
 }
     
 /* start of the 4 items*/
@@ -220,7 +227,8 @@ section.item .items {
     justify-content: center;
     align-items: center;
     height:;
-    font-size: 40px;
+    font-size: 30px;
+    font-style: italic;
 }
 #email {
     font-family: 'ralewaylight';
@@ -289,12 +297,18 @@ section.item .items {
 #footer span {
     color: #969696;
 }
+#footer p {
+font-size: 12px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
 form {
     height: 13%;
     padding: 5px;
     display: inline-flex;
     justify-content: space-between;
-    width: 38%;
+    width: 65%;
     background-color: white;
     border-radius: 20px;
     border: 8px;
@@ -304,42 +318,50 @@ form {
 }
 input {
 border: none; 
-length: 150px;
+length:;
 }
 button {
+    justify-content: flex-start;
     width: 20%;
     border-radius: 20px;
     color: white;
     background: #e2574c;
 }
 
-    @media all and (max-width: 720px) {
+    /*@media all and (max-width: 425px) {
         .categories {
-            display: flex;
-            width: auto;
-            flex-direction: column
+            display: inline;
+             
+            
+        }
+        .nav img {
+            height: 70px;
+            width: 70px;
+        }
+        ul.nav {
+            font-size: 12px
         }
         #mens {
-            width: auto;
+            width: 100%;
         }
         
         #glasses {
-            width: auto;
+            width: 49%;
         } 
         #trends {
-            width: auto;
+            width: 49%;
             
         } 
         #womens {
-            width: auto;
+            width: 100%;
             
         } 
         #sale {
-            width: auto;
+            width: 49%;
             
         }  
         #bags {
-            width: auto;
+            width: 49%;
             
         }
     }
