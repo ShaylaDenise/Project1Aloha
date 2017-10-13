@@ -71,6 +71,7 @@ main.middle {
     align-items: center;
     /*padding: 125px;*/
     height: 475px; 
+    
     background-color: #969696;
     background-image: url("../imagess/banner-girl.png"), url("../imagess/flower-bkgd.jpg");  
     background-repeat: no-repeat;
@@ -95,8 +96,8 @@ main.middle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    
-    width: 100%;
+    margin: 10px;
+    width: 95%;
 } 
 #mens:hover {
     background-color: white;
@@ -107,8 +108,8 @@ main.middle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    
-    width: 49%;
+    margin:8.5px;
+    width: 44%;
 }
 #trends:hover {
     background-color: white;
@@ -119,8 +120,8 @@ main.middle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    
-    width: 49%
+    margin: 8.5px;
+    width: 44%
 }
 #glasses:hover {
     background-color: white;
@@ -131,8 +132,8 @@ main.middle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    
-    width: 49%;
+    margin: 8.5px;
+    width: 44%;
 }
 #sale:hover {
     background-color: white;
@@ -143,8 +144,8 @@ main.middle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    
-    width: 49%;
+    margin: 8.5px;
+    width: 44%;
 }
 #bags:hover {
     background-color: white
@@ -156,9 +157,9 @@ main.middle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    
+    margin: 10px;
    
-    width: 100%;
+    width: 95%;
 }
 #womens:hover {
     background-color: white;
@@ -169,7 +170,7 @@ height: 150px;
 width: 100%;
 justify-content: center;
 align-items: center;
-font-style: "playfair_displayregular";
+font-family: "ralewaylight";
 font-size: 33%;
 background-color: #969696;
 background-blend-mode: multiply;
@@ -180,6 +181,7 @@ section.categories .categories ul {
     color: white;
 }
 .categories a {
+    font-family: "ralewaylight";
     color: white;
     text-decoration: none;
 }
@@ -187,6 +189,7 @@ section.categories .categories ul {
     color: #b64036;
 }
 .categories {
+    font-style: "ralewaylight";
     display: inline;
 }
     
@@ -305,7 +308,7 @@ section.item .items {
 #media a:hover {
     color: #b64036
 }
-#footer span {
+#footer span#gray {
     color: #969696;
 }
 #footer p {
@@ -327,6 +330,9 @@ form {
     
 
 }
+footer span.mediatext {
+    display: none;
+}
 input {
 border: none; 
 length:;
@@ -338,8 +344,104 @@ button {
     color: white;
     background: #e2574c;
 }
+@media all and (min-width: 600px) {
+    footer span.mediatext {
+        display: inherit;
+    }
+    #footer p {
+        text-align: left;
+        align-items: left;
+        justify-content: space-around;
+        font-size: 16px;
+        
+        
+    }
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 16px;
+        text-align: auto;
+        align-items: auto;
+    }
+    #media {
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 20%;
+        height:100%;
+    }
+    section.categories .categories {
+        
+        font-size: 30px;
+         
+        
+    }
+    a#cart.nav {
+        width: 150px;
+    }
+    .nav a {
+        width: 70px;
+       
+        
+    }
+    ul.nav {
+        font-size: 16px
+    }
+    #mens {
+        height: 300px;
+        background-size: cover;
+        background-position-x: right;
+        width: 47%;
+        margin: 4px;        }
+    
+    #glasses {
+        height: 300px;
+        background-size: cover;
+        background-position-x: center;
+        width: 23%;
+        margin: 4px;
+           } 
+    #trends {
+        height: 300px;
+        background-size: cover;
+        background-position-x: center;
+        width: 23%;
+        margin: 4px;            
+    } 
+    #womens {
+        height: 300px;
+        background-size: cover;
+        background-position-x: center;
+        width: 47%;
+        margin: 4px;            
+    } 
+    #sale {
+        height: 300px;
+        background-size: cover;
+        background-position-x: center;
+        width: 23%;
+        margin: 4px;                   
+    }  
+    #bags {
+        height: 300px;
+        background-size: cover;
+        background-position-x: center;
+        width: 23%;
+        margin: 4px;                   
+    }
+    form {
+        
+        width: 38%;
+    }
+    button {
+        width: 38%;
+    }
+}
 
     @media all and (min-width: 1024px) {
+        footer span.mediatext {
+            display: inherit;
+        }
         a#alohalogo.nav {
             width:300px;
             height: 200px;
@@ -390,37 +492,43 @@ button {
         
         #mens {
             height: 450px;
-            width: 50%;
             background-size: cover;
             background-position-x: right;
+            width: 47%;
+            margin: 4px;
         }
         
         #glasses {
             height: 450px;
-            width: 24%;
+            width: 23%;
+            margin: 4px;
             background-size: cover;
             background-position-x: center;        } 
         #trends {
             height: 450px;
-            width: 24%;
+            width: 23%;
+            margin: 4px;
             background-size: cover;
             background-position-x: center;            
         } 
         #womens {
             height: 450px;
-            width: 50%;
+            width: 47%;
+            margin: 4px;
             background-size: cover;
             background-position-x: center;            
         } 
         #sale {
             height: 450px;
-            width: 24%;
+            width: 23%;
+            margin: 4px;
             background-size: cover;
             background-position-x: center;            
         }  
         #bags {
             height: 450px;
-            width: 24%;
+            width: 23%;
+            margin: 4px;
             background-size: cover;
             background-position-x: center;            
         }
@@ -431,73 +539,4 @@ button {
             width: 38%;
         }
     }
-    @media all and (min-width: 600px) {
-        #footer p {
-            text-align: left;
-            align-items: left;
-            justify-content: space-around;
-            font-size: 16px;
-            
-            
-        }
-        #footer {
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row;
-            font-size: 16px;
-            text-align: auto;
-            align-items: auto;
-        }
-        #media {
-            justify-content: space-evenly;
-            flex-direction: column;
-            width: 20%;
-            height:100%;
-        }
-        section.categories .categories {
-            
-            font-size: 30px;
-             
-            
-        }
-        a#cart.nav {
-            width: 150px;
-        }
-        .nav a {
-            width: 70px;
-           
-            
-        }
-        ul.nav {
-            font-size: 16px
-        }
-        #mens {
-            width: 50%;
-        }
-        
-        #glasses {
-            width: 24%;
-        } 
-        #trends {
-            width: 24%;
-            
-        } 
-        #womens {
-            width: 50%;
-            
-        } 
-        #sale {
-            width: 24%;
-            
-        }  
-        #bags {
-            width: 24%;
-            
-        }
-        form {
-            width: 38%;
-        }
-        button {
-            width: 38%;
-        }
-    }
+    

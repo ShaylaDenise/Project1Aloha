@@ -11,9 +11,9 @@ $( document ).ready(function() {
 $( document ).ready(function(){
     $('.bxslider').bxSlider({
         minSlides: 1,
-        maxSlides: 4,
+        maxSlides: 8,
         slideWidth: 360,
-        slideMargin: 10
+        slideMargin: 0
     });
   });
   

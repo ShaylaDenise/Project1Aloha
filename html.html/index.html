@@ -2,11 +2,9 @@
 <html lang="en">
     <head>
         <script src="https://use.fontawesome.com/5bb64194a9.js"></script>
-        <link rel="Stylesheeet" href="stylesheet.css">
+        <link rel="stylesheet" href="stylesheet.css">
         <link rel="stylesheet" href="style.css" media="screen">
-        <link rel="stylesheet" href="reset.css" media="screen">
-        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>        
+        <link rel="stylesheet" href="reset.css" media="screen">        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <script src="jquery.min.js"></script>
@@ -23,8 +21,8 @@
                 <a id="alohalogo"class="nav"><img src="../imagess/aloha-logo.svg" alt=:"Aloha Logo" ></a>
                 <ul class="nav">
                     <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SHOP</a></li>
-                    <li><a href="#">FEATURED</a></li>
+                    <li><a href="#categories">SHOP</a></li>
+                    <li><a href="#itemslider">FEATURED</a></li>
                     <li><a href="#">UPDATES</a></li>
                 </ul>
                 <a href= "#" id= "cart" class="nav"><img src="../imagess/cart-icon.svg"></a>
@@ -40,7 +38,7 @@
             </div>
         <!-- this is the part with the mens womens trends etc set the 1st and last to 
         50% and others to 25% -->
-            <section class="categories">
+            <section id="categories" class="categories">
                 <div class="categories" id= "mens">
                     <a href="#">MEN'S</a>
                 </div>
@@ -61,7 +59,7 @@
                 </div>
             </section>
 <!-- this is the part with the items (shirts dresses etc) set them  all to 25%-->
-            <section class="item-title">
+            <section id="itemslider" class="item-title">
                     <p><em>Most-loved  </em><strong> Products</strong></p>
                     
             </section>
@@ -113,14 +111,14 @@
             
             </section>
             <footer id="footer">
-                <p>&copy; 2016 Aloha Apparel Co.<br>Powered by HTML and CSS.<br><br>604-604-6040. info@alohaapparel.com<br><br><span>
+                <p>&copy; 2016 Aloha Apparel Co.<br>Powered by HTML and CSS.<br><br>604-604-6040. info@alohaapparel.com<br><br><span id="gray">
                 1490 W Broadway <br>Vancouver, BC, Canada</span></p>
                 <ul id="media">
-                    <li><i class="fa fa-facebook" aria-hidden="true"></i><a href="#">    Facebook</a></li>
-                    <li><i class="fa fa-twitter" aria-hidden="true"></i><a href="#">    Twitter</a></li>
-                    <li><i class="fa fa-instagram" aria-hidden="true"></i><a href="#">    Instagram</a></li>
-                    <li><i class="fa fa-pinterest" aria-hidden="true"></i><a href="#">    Pinterest</a></li>
-                    <li><i class="fa fa-google-plus" aria-hidden="true"></i><a href="#">    Google+</a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> <span class="mediatext">    Facebook</span></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> <span class="mediatext">    Twitter</span></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> <span class="mediatext">    Instagram</span></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i> <span class="mediatext">    Pinterest</span></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i><span class="mediatext">    Google+</span></a></li>
                 </ul>
             </footer>
         </div>
