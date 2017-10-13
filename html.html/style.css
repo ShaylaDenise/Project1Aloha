@@ -170,7 +170,7 @@ width: 100%;
 justify-content: center;
 align-items: center;
 font-style: "playfair_displayregular";
-font-size: 2.5em;
+font-size: 33%;
 background-color: #969696;
 background-blend-mode: multiply;
 font-size: 20px;
@@ -387,28 +387,42 @@ button {
         ul.nav {
             font-size: 16px
         }
+        
         #mens {
+            height: 450px;
             width: 50%;
+            background-size: cover;
+            background-position-x: right;
         }
         
         #glasses {
+            height: 450px;
             width: 24%;
-        } 
+            background-size: cover;
+            background-position-x: center;        } 
         #trends {
+            height: 450px;
             width: 24%;
-            
+            background-size: cover;
+            background-position-x: center;            
         } 
         #womens {
+            height: 450px;
             width: 50%;
-            
+            background-size: cover;
+            background-position-x: center;            
         } 
         #sale {
+            height: 450px;
             width: 24%;
-            
+            background-size: cover;
+            background-position-x: center;            
         }  
         #bags {
+            height: 450px;
             width: 24%;
-            
+            background-size: cover;
+            background-position-x: center;            
         }
         form {
             width: 38%;
