@@ -4,12 +4,11 @@
     
 }
 #container {
-    font-family: 'ralewaylight';
     background: white;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
+    font-family: 'ralewaylight'
     
 }
 #imgdiv {
@@ -31,6 +30,7 @@
     height: 10%;
 }
 .navtxt {
+    font-family: 'ralewaylight';
     align-items: center;
     height: 6rem;
     list-style-type: none;
@@ -42,15 +42,17 @@
     text-decoration: none;
     color: #e2574c;
 }
+.navtxt a:hover {
+    color: #b64036;
+ }
 body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    font-family: 'ralewaylight';
 }
 
 p.middle span {
-    
+    font-family: 'playfair_displaybold';
     font-size: 100px;
     
 }
@@ -219,7 +221,17 @@ section.item .items {
 .items a:hover {
     color: #b64036;
 }
+.items button {
+    background-color: #242424;
+    border-radius: 20px;
+}
+.items button:hover {
+    color: #b64036;
+}
+
 .items {
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 .item-title {
