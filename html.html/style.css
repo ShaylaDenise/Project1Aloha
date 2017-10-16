@@ -226,6 +226,7 @@ section.item .items {
     color: #b64036;
 }
 .items button {
+    outline: none;
     background-color: #242424;
     border-radius: 20px;
 }
@@ -265,6 +266,9 @@ section.item .items {
     font-family: 'playfair_displayregular';
     font-size: 35px;
     
+}
+#mail {
+    outline: none;
 }
 #email p {
     /*font-size: 12px;*/
@@ -349,6 +353,7 @@ border: none;
 length:;
 }
 button {
+    outline: none;
     justify-content: flex-start;
     width: 11em;
     border-radius: 20px;
