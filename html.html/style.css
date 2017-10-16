@@ -68,12 +68,16 @@ main.middle {
     align-items: center;
     /*padding: 125px;*/
     height: 475px; 
-    
-    background-color: #969696;
-    background-image: url("../imagess/banner-girl.png"), url("../imagess/flower-bkgd.jpg");  
+    background: linear-gradient(rgba(0, 0, 0, 0.5%));
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)),
+        url("../imagess/banner-girl.png"), url("../imagess/flower-bkgd.jpg");  
     background-repeat: no-repeat;
     background-position: center ;
-    background-size: contain, auto;
+    background-size: cover, contain;
+   
     
     
     
@@ -278,7 +282,7 @@ section.item .items {
     height: 300px;
 }
 #first-hand {
-    font-size: 35px;
+    font-size: 30px;
 }
 #first-hand em {
     font-style: italic;
@@ -354,6 +358,9 @@ button {
 @media all and (min-width: 600px) {
     footer span.mediatext {
         display: inherit;
+    }
+    hr {
+        display: none;
     }
     #footer p {
         text-align: left;
@@ -435,7 +442,7 @@ button {
     }
 }
 
-    @media all and (min-width: 1024px) {
+    @media all and (min-width: 1023px) {
         footer span.mediatext {
             display: inherit;
         }
@@ -480,20 +487,20 @@ button {
         
         #glasses {
             height: 450px;
-            width: 23%;
+            width: 25%;
             margin: 4px;
             background-size: cover;
             background-position-x: center;        } 
         #trends {
             height: 450px;
-            width: 23%;
+            width: 24%;
             margin: 4px;
             background-size: cover;
             background-position-x: center;            
         } 
         #womens {
             height: 450px;
-            width: 47%;
+            width: 50%;
             margin: 4px;
             background-size: cover;
             background-position-x: center;            
