@@ -1,0 +1,24 @@
+{
+  "name": "project-1-aloha",
+  "version": "1.0.0",
+  "description": "This is the first project I've created using html/css. It is designed to be the front page of Aloha fashion.  This website displays all the required information and link in an effective and aesthetically pleaseing manner. I have organized all divs with classes and/or ids so that they are easily targetted with css I included a css reset and used all the required fonts and layout requirements as stated by the rubric",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileym11/Project1Aloha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rileym11/Project1Aloha/issues"
+  },
+  "homepage": "https://github.com/rileym11/Project1Aloha#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  }
+}
